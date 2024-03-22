@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CDN -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- iconos -->
+    <script src="https://kit.fontawesome.com/e4c1bcc4db.js" crossorigin="anonymous"></script>
+    <!-- font cabina  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">   
+    <!-- font Lobster  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Js -->
+     <script src="/assets/js/script.js"></script>
+  
+    
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <header>
+        <nav class="container-fluid navbar navbar-expand-lg" data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="./assets/img/Captura de pantalla 2024-03-19 121946.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto fw-light" style="font-family: 'Cabin', sans-serif;">
+                        <li class="nav-item">
+                            <a class="nav-link active textoNav" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link textoNav" href="#">Recetas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link textoNav" href="#">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link textoNav" href="#">Contacto</a>
+                        </li>                   
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Primera Card -->
+    <section> 
+        <div class="container mt-5">
+            <div class="row justify-content-center"> <!-- Centrar la fila -->
+                <div class="col-lg-9">
+                    <div class="card mb-3 agrandarCard eliminaBorde" >
+                        <div class="row g-0">
+                            <div class="col-md-6">
+                                <img src="/assets/img/principal.jpg" class="img-fluid rounded-start " alt="...">
+                            </div>
+                            <div class="col-md-5">
+                                <div class="card-body">
+                                    <h5 class="fs-2 tituloCard">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h5>
+                                    <!-- linea separadora -->
+                                    <div class="col d-flex justify-content-center">
+                                         <div class="linea-separadora border-bottom my-3 w-100"></div> 
+                                     </div>                                  
+                                    <p class="card-text mt-4 subTituloCard1" >110 MIN / 6 A 8 PORCIONES</p>
+                                    <a href="#" class="btn btn-outline-secondary" id="btnEnviarCorreo" title="Presiona para enviar a tu correo">Enviar por correo</a>
+                                    <a href="#" class="btn btn-outline-secondary" title="Agrega esta receta a tus favoritos">Añadir a favoritos</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <article>
+        <!-- Carrusel -->
+        <div id="carouselExampleIndicators" class="carousel slide mt-5 d-none y d-sm-block" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active margenBotoneCarrusel">
+                    <div class="row justify-content-center ">
+                        <div class="col-2">
+                            <img src="/assets/img/slider-1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col-2">
+                            <img src="/assets/img/slider-2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col-2">
+                            <img src="/assets/img/slider-3.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col-2">
+                            <img src="/assets/img/slider-4.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item margenBotoneCarrusel">
+                    <div class="row justify-content-center  ">
+                        <div class="col-2">
+                            <img src="/assets/img/slider-5.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col-2">
+                            <img src="/assets/img/slider-6.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col-2">
+                            <img src="/assets/img/slider-7.png" class="d-block w-100" alt="...">
+                        </div>                   
+                        <div class="col-2">
+                            <img src="/assets/img/slider-8.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Indicadores circulares -->
+            <ul class="carousel-indicators">
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+            </ul>
+        
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>       
+    </article>
+
+   <!-- linea separadora -->
+   <div class="col d-flex justify-content-center">
+        <div class="linea-separadora border-bottom my-3 w-75"></div> <!-- Línea separadora centrada con ancho personalizado -->
+   </div>
+   <section>
+        <!-- recetas  -->
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+            <div class="col-md-5">
+                <div class="card eliminaBorde">
+                    <div class="card-body">
+                        <h5 class="card-title subTituloCard2  mb-3" id="tituloColorIngrediente">INGREDIENTES</h5>
+                        <h6 class="card-subtitle mb-3 text-muted">Masa</h6>
+                        <p class="card-text">20 gr de levadura seca instantánea <br>
+                            1 cucharadita de azúcar <br>
+                            500 ml agua tibia <br>
+                            100 ml aceite vegetal <br>
+                            4 cucharadas de aceite de oliva <br>
+                            65 gr harina de maíz fina (chuchoca) <br>
+                            2 cucharaditas de sal <br>
+                            625 gr harina Salsa <br>
+                            5 cucharadas de aceite de oliva ½ <br>
+                            cebolla picada en cubos finos <br>
+                            2 cucharaditas de sal <br>
+                            3 cucharadas de Orégano Gourmet <br>
+                            1 ½ cucharadas de Albahaca Gourmet <br>
+                            2 tarro de tomates en cubos al natural <br>
+                            2 cucharaditas de azúcar Relleno ½ cebolla, en cubos <br>
+                            500 gr hojas de espinacas picadas <br>
+                            400 gr de champiñones, laminados <br>
+                            300 gr de queso mozarella. <br>
+                            4 cucharadas queso parmesano</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="card eliminaBorde">
+                    <div class="card-body">
+                        <h5 class="card-title subTituloCard2 mb-5" id="tituloColorPreparacion">PREPARACIÓN 1.</h5>
+                        
+                        <p class="card-text mt-1 mr-5"> 
+                            1.Para la masa, disolver la levadura y el azúcar en agua tibia en un bol grande. Dejar reposar 2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de harina. Mezclar bien. Amasar y agregar el resto de harina, la cantidad necesaria para tener una masa blanda. Poner en el mesón y amasar por 5 minutos o hasta tener una masa lisa y elástica (agregar harina en el mesón a medida que se va amasando para que la masa no se pegue) . Poner la masa en un bol aceitado, tapar con un paño de cocina limpio y dejar reposar hasta que la masa duplique su volumen (leudar). Golpear la masa para que baje y luego dejar leudar por 40 minutos adicionales. <br>
+                            <br>
+                            2. Mientras tanto preparar la salsa: Calentar 4 cucharadas de aceite en una olla a fuego medio. Agregar la cebolla, Orégano Gourmet, Albahaca Gourmet, sal y cocinar hasta que la cebolla esté dorada. Agregar el ajo y cocinar por 30 segundos. Agregar los tomates junto al jugo del tarro, a la mezcla de cebolla. Agregar el azúcar y cocinar hasta que la mezcla se haya reducido y espesado, como 30 minutos. Sazonar con sal y pimienta a gusto. Reservar. <br>
+                            <br>
+                            3. Relleno: Cocinar las chalotas en el aceite de oliva hasta que estén transparentes. Agregar los champiñones y las espinacas, cocinar hasta que estén cocidos y se haya evaporado todo el líquido que hayan votado los vegetales. Reservar. <br>
+                            <br>
+                            4. Calentar el horno a 220C. <br>
+                            <br>
+                            5. Una vez que la masa haya reposado, dividirla en dos bolas. Estirar cada masa para cubrir dos moldes (desmontables) de 26 cm, hacer un borde de 5 cm con la masa. Dividir el relleno entre las dos pizza, tapar con el queso mozarella, luego terminar con la salsa de tomates y finalmente espolvorear el queso rallado. <br>
+                            <br>
+                            6. Hornear por 35 a 40 minutos o hasta que el relleno esté caliente y la base esté esponjosa y dorada. Esperar unos minutos antes de desmoldar.
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+   </section> 
+
+  <!-- linea separadora -->
+  <div class="col d-flex justify-content-center">
+    <div class="linea-separadora border-bottom my-3 w-75"></div> <!-- Línea separadora centrada con ancho personalizado -->
+  </div>
+
+  <h2 class="text-center mt-5 tituloCard" id="verCard">RECETAS RELACIONADAS</h2>        
+   <!-- card finales   -->
+  <section>
+        <div id="contenedorTarjetas" class="mx-auto row fw-light mb-5 justify-content-center align-items-center">
+            <!-- card1 -->
+            <div class="card mt-5 mx-0 mx-md-3 col-lg-4 col-md-4 col-sm-6 col-12 pt-3" id="ocultarCard" style="width: 18rem;">
+                <img src="/assets/img/recipe-card-1.png" class="card-img-top w-100" alt="...">
+                <div class="card-body">
+                    <p class="card-text fs-4 tituloCarFinal" id="colorBlack">PANQUEQUES CON MANJAR Y CREMA</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item fs-5">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</li>
+                </ul>
+            </div>
+            <!-- card2 -->
+            <div class="card mt-5 mx-0 mx-md-3 col-lg-4 col-md-4 col-sm-6 col-12 pt-3" id="ocultarCard" style="width: 18rem;">
+                <img src="/assets/img/recipe-card-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text fs-4 tituloCarFinal" id="colorBlack">TIRAMISÚ</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item fs-5">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</li>
+                </ul>
+            </div>
+            <!-- card3 -->
+            <div class="card mt-5 mx-0 mx-md-3 col-lg-4 col-md-4 col-sm-6 col-12 pt-3" id="ocultarCard" style="width: 18rem;">
+                <img src="/assets/img/recipe-card-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text fs-4 tituloCarFinal" id="colorBlack">PLATEADA</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item fs-5">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+         
+    <footer>
+        <div class="text-center colorFooter">
+            <div class="card-body">
+              <h5 class="card-title tituloCard">SUSCRÍBETE EN NUESTRO NEWSLETTER</h5>
+              <p class="card-text" style="font-family: 'Lobster', sans-serif; font-size: 30px;">y obtén las mejores recetas que tenemos en Ricomida</p>
+              <a href="#" class="btn btn-outline-light">Empezar</a>
+            </div>
+           </div>
+          <div class="colorFinalFooter p-4" style="text-align: center;">
+            <a href="#"><img src="./assets/img/Captura de pantalla 2024-03-19 121946.png" alt="" style="display: inline-block; width: 200px; height: auto;"></a>
+        </div>
+    </footer>
+     
+   
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

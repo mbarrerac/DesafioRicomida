@@ -1,0 +1,110 @@
+/* <uniquifier>: usa un nombre de clase único y descriptivo // <weight>: usa un valor de 400 a 700 .cabin-<uniquifier> { 
+    font-family: "Cabin", sans-serif; tamaño-óptico-de-fuente: automático; peso de fuente: <peso>; estilo de fuente: normal;
+     configuración de variación de fuente: "ancho" 100;  */
+
+ /* Cabin*/
+ body {
+    font-family: "Cabin", sans-serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    font-size: 16px !important; /* Tamaño de fuente predeterminado */
+} 
+nav{
+    background-color:#373A3C;
+
+    
+}
+
+nav div a img{
+    width: 8em;
+}
+
+nav .navbar-nav .nav-link.textoNav {
+    color: #ffffff !important;
+}
+
+.colorFooter {
+    background-color:#DC3545 !important;
+    color: #ffffff !important;
+    padding: 6em;
+}
+
+
+.tituloCard {
+    font-weight: bold;
+    font-size: 40px;
+}
+.subTituloCard1{
+    font-weight: bold;
+    font-size: 20px;    
+}
+
+.subTituloCard2{
+    font-size: 20px;    
+}
+
+.tituloCarFinal {
+    font-weight: bold;
+    font-size: 23px;    
+}
+
+.agrandarCard {
+    max-width: 1000px; /* Ajusta el ancho de la card */
+    max-height: 1000px ;
+}
+.margenCard{
+    margin-top: 0em;
+    margin-right: 9em;
+ }
+
+
+footer img{
+    width: 2.5em;
+    display: block;
+}
+
+
+.colorFinalFooter {
+    background-color:#373A3C;
+}
+
+
+.colorFinalFooter img {
+    width: 200px; 
+    height: auto;
+    text-align: center;
+}
+
+
+#colorBlack{
+    color:#212529;
+}
+
+.colorTituloIngredientes{
+    color: red !important;
+}
+.ocultarCard {
+    display: none !important;
+}
+
+.eliminaBorde {
+    border: none !important; /* Elimina el borde */
+}
+
+ .carousel-indicators li {
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 100% !important;
+    background-color:#373A3C !important;
+    display:block
+    
+ }
+ .margenBotoneCarrusel {
+    margin-bottom: 6em;
+ }
+
+.linea-separadora {
+    height: 2px ; 
+    background-color: #000000 !important; 
+
+}
